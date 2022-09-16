@@ -10,11 +10,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    font-family: 'Indie Flower', cursive;
-    color: beige;
 }
 
-
+.cabrarata {
+    width: 25%;
+}
 
 main {
     display: grid;
@@ -27,30 +27,6 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
-header {
-    padding: auto;
-    margin: auto;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-nav ul li a {
-    color: #347D14;
-    padding: 1rem 1rem;
-    line-height: 1.6;
-    text-decoration: none;
-}
-
-
 
 h1 {
     text-align: center;
@@ -78,209 +54,20 @@ form {
 /*------discos-----*/
 
 
-.discos {
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    grid-auto-columns: 1fr;
-    gap: 2rem 2rem;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "foto1 link1"
-        "foto2 link2"
-        "foto3 link3"
-        "foto4 link4";
+
+.color-pd {
+    color: #FFC090;
 }
 
-.foto1 {
-    grid-area: foto1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.color-h5 {
+    color: #F7F6DC;
 }
-
-.foto1 img {
-    display: flex;
-    width: 50%;
-}
-
-.foto1 img a {
-    display: flex;
-    width: 50%;
-
-}
-
-.foto2 {
-    grid-area: foto2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.foto2 img {
-    display: flex;
-    width: 50%;
-
-}
-
-.foto3 {
-    grid-area: foto3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.foto3 img {
-    display: flex;
-    width: 50%;
-
-}
-
-.foto4 {
-    grid-area: foto4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.foto4 img {
-    display: flex;
-    width: 50%;
-
-}
-
-.link1 {
-    grid-area: link1;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: #347D14;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.link1 h3 {
-    display: flex;
-    font-size: 2.5rem;
-    text-decoration: underline;
-}
-
-.link1 p a {
-    display: flex;
-    text-decoration: none;
-    color: #347D14;
-    align-content: space-between;
-}
-
-.link2 {
-    grid-area: link2;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: #347D14;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.link2 h3 {
-    display: flex;
-    font-size: 2.5rem;
-    text-decoration: underline;
-}
-
-.link2 p a {
-    display: flex;
-    text-decoration: none;
-    color: #347D14;
-    align-content: space-between;
-}
-
-.link2 {
-    grid-area: link2;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: #347D14;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.link2 h3 {
-    display: flex;
-    font-size: 2.5rem;
-    text-decoration: underline;
-}
-
-.link2 p a {
-    display: flex;
-    text-decoration: none;
-    color: #347D14;
-    align-content: space-between;
-}
-
-.link3 {
-    grid-area: link3;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: #347D14;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.link3 h3 {
-    display: flex;
-    font-size: 2.5rem;
-    text-decoration: underline;
-}
-
-.link3 p a {
-    display: flex;
-    text-decoration: none;
-    color: #347D14;
-    align-content: space-between;
-}
-
-.link4 {
-    grid-area: link4;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    color: #347D14;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-}
-
-.link4 h3 {
-    display: flex;
-    font-size: 2.5rem;
-    text-decoration: underline;
-}
-
-.link4 p a {
-    display: flex;
-    text-decoration: none;
-    color: #347D14;
-    align-content: space-between;
-}
-
 
 /*-----multimedia-----*/
 .container {
     display: grid;
     grid-auto-columns: 1fr 1fr;
-    grid-template-columns: max-content max-content ;
+    grid-template-columns: max-content max-content;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 3px 0px;
     grid-template-areas:
@@ -391,7 +178,10 @@ form {
 }
 
 .w-img {
-    width: 100vh};
+    width: 100vh
+}
+
+;
 
 
 .w-img2 {
@@ -633,7 +423,7 @@ form {
 
     .giras1 {
 
-        grid-template-columns: repeat(6, min-content) ;
+        grid-template-columns: repeat(6, min-content);
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-auto-columns: 1fr;
         grid-auto-rows: 1fr;
@@ -651,63 +441,64 @@ form {
         list-style: none;
         color: #347D14;
     }
-        .df-main {
-            
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: #68c540;
-            text-align: center;
-            font-size: 1.5rem;
-            font-weight: normal;
-            font-family: 'Dancing Script'
-        }
-    
-        .bio-p {
-         
-            justify-content: center;
-            align-items: center;
-            color: #68c540;
-            text-align: center;
-            font-size: 1.5rem;
-            font-weight: normal;
-            font-family: 'Dancing Script'
-    
-        }
-    
-        .card {
-            width: 0;
-            margin: 0;
-        }
-    
-        .df-card {
-            
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-    
-        }
-    
-        .w-img {
-            width: 50vh;
-        }
-    
-    
-    
-        .w-img2 {
-            width: 25vh;
-        }
-    
-        .bg-card {
-            width: 50vh;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            border-bottom-style: solid;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-    
-        }
+
+    .df-main {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #68c540;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Dancing Script'
+    }
+
+    .bio-p {
+
+        justify-content: center;
+        align-items: center;
+        color: #68c540;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Dancing Script'
+
+    }
+
+    .card {
+        width: 0;
+        margin: 0;
+    }
+
+    .df-card {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .w-img {
+        width: 50vh;
+    }
+
+
+
+    .w-img2 {
+        width: 25vh;
+    }
+
+    .bg-card {
+        width: 50vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-bottom-style: solid;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
 }
