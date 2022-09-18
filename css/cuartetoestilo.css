@@ -16,18 +16,6 @@ body {
     width: 25%;
 }
 
-main {
-    display: grid;
-    margin: auto;
-}
-
-.lamina11 {
-    width: 50%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {
     text-align: center;
     font-size: 2rem;
@@ -42,12 +30,6 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
-}
-
-form {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #347D14;
 }
 
 
@@ -140,17 +122,6 @@ form {
 
 
 /*------biografia----*/
-.df-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #68c540;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
-    font-family: 'Dancing Script'
-}
 
 .bio-p {
     display: flex;
@@ -162,51 +133,6 @@ form {
     font-weight: normal;
     font-family: 'Dancing Script'
 
-}
-
-.card {
-    width: 100px;
-    margin: 100px;
-}
-
-.df-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.w-img {
-    width: 100vh
-}
-
-;
-
-
-.w-img2 {
-    width: 100vh;
-}
-
-.bg-card {
-    width: 500px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-bottom-style: solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-
-.boton {
-    font-family: 'Dancing Script';
-    margin: 10px;
-    padding: 5px 10px;
-    border: solid;
-    border-radius: 10px;
 }
 
 .titulo-bio {
@@ -315,9 +241,12 @@ form {
 .pie {
     display: flex;
     font-size: 1.5rem;
-    justify-content: space-between;
     margin: auto;
     color: #e26ae0;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+
 }
 
 .logo a i {
