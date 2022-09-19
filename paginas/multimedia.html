@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <link rel="stylesheet" href="../css/cuartetoestilo.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cuartetoestilo.css">
 
 
     <title>4teto</title>
@@ -21,65 +22,115 @@
 
 <body>
     <header>
-        <div>
-            <h1> Cuarteto de nos</h1>
-            <img class="lamina11" src="../img/cuarteto-de-nos-lamina-once.jpg" alt="foto de perfil">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Pagina Principal</a></li>
-                <li><a href="./discos.html">Discos</a></li>
-                <li><a href="./biografia.html">Biografias</a></li>
-                <li><a href="./giras.html">Giras</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar" style="background-color: #7FB77E;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="cabrarata animate__heartBeat" src="../img/cabrarata.png"
+                        alt=""></a>
+                <button title="menu" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cuarteto de nos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./paginas/discos.html">Discos</a>
+                            </li>
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Paginas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../index.html">Pagina</a></li>
+                                    <li><a class="dropdown-item" href="./biografia.html">Biografias</a></li>
+
+                                    <li><a class="dropdown-item" href=".giras.html">Giras</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="container">
-
-            <div class="descripcion-del-video">
-                <h2>El hijo de Hernandez</h2>
-                <p> video de </p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item px-5 mx-5 index-p bg-transparent">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       <h2>Solo veo ,veo veo veo manchas</h2>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <iframe class="videoyou" src="https://www.youtube.com/embed/PIass-1rgkI" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="video"><video class="hernandez" src="../video/hernandez.mp4" controls></video></div>
-
-            <div class="descripcion-del-audio">
-                <h2>Puntacana</h2>
-                <p>audio de la cancion</p>
+            <div class="accordion-item px-5 mx-5 index-p bg-transparent">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h2>Te vas a punta cana!</h2>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <audio src="../video/puntacana.mp3" controls preload="auto"></audio>
+                       
+                    </div>
+                </div>
             </div>
-            <div class="audio"><audio src="../video/puntacana.mp3" controls preload="auto"></audio></div>
-
-            <div class="descripcion-de-video2">
-                <h2>Roschach</h2>
-                <p>video de</p>
-
+            <div class="accordion-item  px-5 mx-5 index-p bg-transparent">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h2 class="text-success">Yo no soy el hijo de Hernandez</h2>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <video class="hernandez" src="../video/hernandez.mp4" controls></video>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="video-youtube"><iframe class="videoyou" src="https://www.youtube.com/embed/PIass-1rgkI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-
-
-
+        </div>
+        
     </main>
-    
-    <footer class="pie fixed-bottom">
+
+    <footer class="pie">
         <h3>Creado por Leonardo Jacques </h3>
         <p>Redes</p>
         <div class="logo">
             <a href="https://www.instagram.com/cuartetodenosok/?hl=es-la" target="_blank" rel="noopener noreferrer"><i
                     class="fab fa-instagram animate__heartBeat"></i></a>
-            <a href="https://www.youtube.com/channel/UCHIalb8oZehqMPum16ImmGQ" target="_blank" rel="noopener noreferrer"><i
-                    class="fab fa-youtube animate__heartBeat"></i></a>
+            <a href="https://www.youtube.com/channel/UCHIalb8oZehqMPum16ImmGQ" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-youtube animate__heartBeat"></i></a>
             <a href="https://www.tiktok.com/@cuartetodenosoficial?_d=secCgYIASAHKAESPgo8XlwggxqyWNUovRKC8jYrepOYcaMQiIjzKGEHs%2FK9BGu%2F%2BDnIlur%2BPES1OanN6qs%2FilyMBpSX%2B9HxGro2GgA%3D&checksum=f2b8f5ec9dec39991809c51d0311820b9a3d55ef5f8ad5854a138e4d684fc6e3&language=es&sec_uid=MS4wLjABAAAA4parUvfLFaCTPb1xn63Av7ABzttnMSAV-B0JQ1Ltb6bR6hGWM0nvvKBjMp7N4sKH&sec_user_id=MS4wLjABAAAA4parUvfLFaCTPb1xn63Av7ABzttnMSAV-B0JQ1Ltb6bR6hGWM0nvvKBjMp7N4sKH&share_app_id=1233&share_author_id=6980917282085012485&share_link_id=B3C3D313-3B12-49EB-8822-FC10BB34EAA1&tt_from=whatsapp&u_code=djcf6a27abhbll&user_id=6980917282085012485&utm_campaign=client_share&utm_medium=ios&utm_source=whatsapp&_r=1"
                 target="_blank" rel="noopener noreferrer animate__heartBeat"><i
                     class="fab fa-tiktok animate__heartBeat"></i></a>
             <a href="https://www.facebook.com/people/Cuarteto-de-Nos/100044328944720/" target="_blank"
                 rel="noopener noreferrer"><i class="fab fa-facebook animate__heartBeat"></i></a>
-            <a href="https://open.spotify.com/artist/13JJKrUewC1CJYmIDXQNoH" target="_blank" rel="noopener noreferrer"><i
-                    class="fab fa-spotify animate__heartBeat"></i></a>
+            <a href="https://open.spotify.com/artist/13JJKrUewC1CJYmIDXQNoH" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-spotify animate__heartBeat"></i></a>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/872d969532.js" crossorigin="anonymous"></script>
@@ -87,7 +138,11 @@
     <script>
         new WOW().init();
     </script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
