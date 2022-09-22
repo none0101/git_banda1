@@ -54,8 +54,8 @@
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
     </header>
     <main>
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item px-5 mx-5 index-p bg-transparent">
+            <div class="accordion-item px-5 mx-5 index-p bg-transparent ">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button " style="background-color:#b3f7e696" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -74,9 +74,11 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <iframe class="videoyou" src="https://www.youtube.com/embed/PIass-1rgkI" title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            ></iframe>
+                        <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PIass-1rgkI" title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,9 +91,10 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div class="accordion-body ">
+                        <div class="videoHer" >
                         <audio src="../video/puntacana.mp3" controls preload="auto"></audio>
-                       
+                       </div>
                     </div>
                 </div>
             </div>
@@ -104,9 +107,10 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <video class="hernandez" src="../video/hernandez.mp4" controls></video>
-                        
+                    <div class="accordion-body ">
+                        <div class="videoHer ">
+                        <video width="100%" src="../video/hernandez.mp4" controls></video>
+                        </div>
                     </div>
                 </div>
             </div>
