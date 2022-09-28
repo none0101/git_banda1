@@ -1,6 +1,5 @@
  status/wirframe/
 /node_modules/
-package-lock.json
-package.json
+
 /scss/
 estilorespaldo.css
