@@ -99,6 +99,7 @@ audio {
     font-size: 1rem;
     margin: auto;
     color: #0f9fb3;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-content: space-around;
     align-items: center;

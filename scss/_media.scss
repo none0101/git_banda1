@@ -1,0 +1,69 @@
+@media screen and (max-width: 700px) {
+
+    .pie {
+
+        font-size: 1rem;
+        margin: auto;
+        color: #0f9fb3;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .index-p {
+        margin: 15px;
+        color: #adc5b9;
+        text-align: center;
+        font-size: 0.75rem;
+        font-family: 'Roboto', cursive;
+
+    }
+
+    .logo a i {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: right;
+        padding: 2.5px 5px;
+        color: #0c8869
+    }
+
+    .logo a i:hover {
+        transform: scale(1.5);
+        transition: all 1.5s ease;
+    }
+
+    .videoHer {
+
+        width: 100%;
+        height: auto;
+    }
+
+    .bio-p {
+
+        justify-content: center;
+        align-items: center;
+        color: #15c9e0;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .titulo-bio {
+
+        margin: 15px;
+        color: #2abe99;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: normal;
+        font-family: 'Play', sans-serif;
+
+    }
+}

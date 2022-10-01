@@ -1,0 +1,23 @@
+.pie {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    color: #0f9fb3;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    .fab {
+        font-size: 35px;
+        text-align: right;
+        padding: 5px 10px;
+        color: #0c8869; 
+        
+        &:hover{
+            transform: scale(1.5);
+            transition: all 1.5s ease;
+        }
+
+    }
+}
