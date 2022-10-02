@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+a {
+  text-decoration: none; }
+
 body {
   background: rgba(0, 0, 0, 0.7) url("../img/fondo.jpg");
   background-position: center;
@@ -17,7 +20,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  font-size: 2rem;
   color: #26aabb;
   font-family: 'Roboto'; }
 
@@ -33,7 +35,8 @@ h3 {
   width: 25%; }
 
 .navbar {
-  background-color: #06c0b7; }
+  background-color: #06c0b7;
+  flex-wrap: nowrap; }
 
 .offcanvas-body {
   background-color: #06c0b7; }
@@ -54,6 +57,7 @@ h3 {
 
 .bio-p {
   display: flex;
+  margin: 15px 10px 5px 5px;
   justify-content: center;
   align-items: center;
   color: #15c9e0;
@@ -62,8 +66,13 @@ h3 {
   font-weight: normal;
   font-family: 'Roboto', sans-serif; }
 
+.taRjeta {
+  justify-content: center;
+  margin: 3rem;
+  padding: 3rem; }
+
 .titulo-bio {
-  margin: 15px;
+  margin: 15px 10px 5px 5px;
   color: #2abe99;
   text-align: center;
   font-size: 2.5rem;
@@ -73,20 +82,16 @@ h3 {
 .videoHer {
   width: 100%; }
 
-audio {
-  display: block; }
-
 .pie {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1.2rem;
   color: #0f9fb3;
   justify-content: space-between;
   align-content: space-around;
-  align-items: center;
-  font-family: 'Roboto', sans-serif; }
+  align-items: center; }
   .pie .fab {
-    font-size: 35px;
+    font-size: 2rem;
     text-align: right;
     padding: 5px 10px;
     color: #0c8869; }
@@ -99,7 +104,7 @@ audio {
     font-size: 1rem;
     margin: auto;
     color: #0f9fb3;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
@@ -110,35 +115,34 @@ audio {
     text-align: center;
     font-size: 0.75rem;
     font-family: 'Roboto', cursive; }
-  .logo a i {
+  .fab a i {
     display: flex;
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
     flex-direction: column;
     font-size: 20px;
     text-align: right;
     padding: 2.5px 5px;
     color: #0c8869; }
-  .logo a i:hover {
+  .fab a i:hover {
     transform: scale(1.5);
     transition: all 1.5s ease; }
   .videoHer {
-    width: 100%;
-    height: auto; }
+    width: 100%; }
   .bio-p {
     justify-content: center;
     align-items: center;
     color: #15c9e0;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1rem;
+    padding: 15px 25px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif; }
   .titulo-bio {
     margin: 15px;
     color: #2abe99;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     font-weight: normal;
     font-family: 'Play', sans-serif; } }

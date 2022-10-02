@@ -1,5 +1,6 @@
 .bio-p {
     display: flex;
+    margin: 15px 10px 5px 5px;
     justify-content: center;
     align-items: center;
     color: #15c9e0;
@@ -9,9 +10,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.taRjeta {
+    justify-content: center;
+    margin: 3rem;
+    padding: 3rem;
+
+}
+
 .titulo-bio {
 
-    margin: 15px;
+    margin: 15px 10px 5px 5px;
     color: #2abe99;
     text-align: center;
     font-size: 2.5rem;
