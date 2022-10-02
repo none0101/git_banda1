@@ -6,15 +6,15 @@
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
-   
+
 
     .fab {
         font-size: 2rem;
         text-align: right;
         padding: 5px 10px;
-        color: #0c8869; 
-        
-        &:hover{
+        color: #0c8869;
+
+        &:hover {
             transform: scale(1.5);
             transition: all 1.5s ease;
         }
