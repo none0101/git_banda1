@@ -4,7 +4,7 @@
 
         font-size: 1rem;
         margin: auto;
-        color: #0f9fb3;
+        color: $celeste;
         flex-direction: column;
         justify-content: space-between;
         align-content: space-around;
@@ -14,7 +14,7 @@
 
     .index-p {
         margin: 15px;
-        color: #adc5b9;
+        color:$crema;
         text-align: center;
         font-size: 1rem;
         font-family: 'Roboto', cursive;
@@ -31,7 +31,7 @@
         font-size: 20px;
         text-align: right;
         padding: 2.5px 5px;
-        color: #0c8869
+        color:$verde;
     }
 
     .fab a i:hover {
@@ -49,7 +49,7 @@
 
         justify-content: center;
         align-items: center;
-        color: #15c9e0;
+        color:$celeste;
         text-align: center;
         font-size: 1rem;
         padding: 15px 25px;
@@ -60,7 +60,7 @@
     .titulo-bio {
 
         margin: 15px;
-        color: #2abe99;
+        color: $verde;
         text-align: center;
         font-size: 1.5rem;
         font-weight: normal;

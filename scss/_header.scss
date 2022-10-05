@@ -4,19 +4,19 @@
 
 
 .navbar{
-    background-color: #06c0b7;
+    background-color: $celeste;
     flex-wrap: nowrap;
     
     
 }
 .offcanvas-body{
-    background-color: #06c0b7
+    background-color: $celeste;
 }
 
 .index-p {
 
     margin: 15px;
-    color: #42855B;
+    color: $verde;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;

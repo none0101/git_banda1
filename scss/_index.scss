@@ -1,7 +1,14 @@
 .accordion-body {
     background-color: #D2D79F;
+}
 
+.index-p{
+    @include index-p
+}
 
+.aCoor{
+    padding: 20px;
+    margin: 15px;
 }
 
 .accordion-button {

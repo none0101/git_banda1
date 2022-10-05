@@ -1,0 +1,30 @@
+.gIra {
+        display: grid;
+       place-items: center;
+       &_peP{
+        color: $crema;
+       }
+       &_tiTle{
+        color: $verde;
+        margin: 10px;
+       }
+       &_liste{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 10px;
+        &_item{
+            color: $crema;
+            border:solid $celeste 2px;
+            margin: 0.5rem;
+            font-family:'Roboto';
+            font-size: 1.5rem;
+            &:hover{
+                background-color: aquamarine;
+                color: blue;
+            }
+        }
+       }
+
+       
+}

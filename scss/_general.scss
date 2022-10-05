@@ -1,3 +1,7 @@
+$celeste: #26aabb;
+$verde: #0c8869;
+$crema: #FFF5E4;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,24 +21,39 @@ body {
 }
 
 .cabrarata {
-    width: 25%;
+    width: 50%;
 }
 
 h1,
 h2,
 h3 {
     text-align: center;
-
-    color: #26aabb;
+    color: $celeste;
     font-family: 'Roboto';
 }
 
 .index-p {
-
     margin: 15px;
-    color: #2e9900;
+    color: $crema;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', cursive;
+}
+
+@mixin taRjeta {
+    justify-content: center;
+    margin: 3rem;
+    padding: 3rem;
+
+}
+
+@mixin index-p {
+    margin: 15px;
+    color: $crema;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Roboto', cursive;
-}
+} 
+
