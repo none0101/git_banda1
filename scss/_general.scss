@@ -1,4 +1,4 @@
-$celeste: #26aabb;
+$celeste: #069db1;
 $verde: #0c8869;
 $crema: #FFF5E4;
 
@@ -30,6 +30,7 @@ h3 {
     text-align: center;
     color: $celeste;
     font-family: 'Roboto';
+
 }
 
 .index-p {
@@ -55,5 +56,12 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Roboto', cursive;
-} 
+}
 
+.bTn {
+    color: black;
+
+    &:hover {
+        color: #FFF5E4;
+    }
+}

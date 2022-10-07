@@ -14,7 +14,7 @@
 
     .index-p {
         margin: 15px;
-        color:$crema;
+        color: $crema;
         text-align: center;
         font-size: 1rem;
         font-family: 'Roboto', cursive;
@@ -31,7 +31,7 @@
         font-size: 20px;
         text-align: right;
         padding: 2.5px 5px;
-        color:$verde;
+        color: $verde;
     }
 
     .fab a i:hover {
@@ -42,14 +42,14 @@
     .videoHer {
 
         width: 100%;
-       
+
     }
 
     .bio-p {
 
         justify-content: center;
         align-items: center;
-        color:$celeste;
+        color: $celeste;
         text-align: center;
         font-size: 1rem;
         padding: 15px 25px;
@@ -65,6 +65,74 @@
         font-size: 1.5rem;
         font-weight: normal;
         font-family: 'Play', sans-serif;
+
+    }
+
+    .meDia {
+        width: 275px;
+    }
+
+    .tAm {
+        height: 335px ;
+    }
+
+    .aCoor {
+        padding: 10px;
+        margin: 7.5px;
+    }
+
+    .taRjeta {
+        justify-content: center;
+        margin: 0.5rem;
+        padding: 0.5rem;
+
+    }
+
+    .disCo {
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+    }
+
+
+
+    .gIra {
+        display: grid;
+        place-items: center;
+
+
+        &_peP {
+            color: $crema;
+            padding: 15px;
+        }
+
+        &_tiTle {
+            color: $verde;
+            margin: 10px;
+        }
+
+        &_liste {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            margin: 10px;
+            flex-direction: column;
+
+            &_item {
+                color: $crema;
+                border: solid $celeste 2px;
+                margin: 0.5rem;
+                font-family: 'Roboto';
+                font-size: 1.5rem;
+
+                &:hover {
+                    background-color: aquamarine;
+                    color: blue;
+                }
+            }
+        }
+
 
     }
 }

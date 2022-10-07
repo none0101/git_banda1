@@ -20,7 +20,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: #26aabb;
+  color: #069db1;
   font-family: 'Roboto'; }
 
 .index-p {
@@ -31,15 +31,20 @@ h3 {
   font-weight: bold;
   font-family: 'Roboto', cursive; }
 
+.bTn {
+  color: black; }
+  .bTn:hover {
+    color: #FFF5E4; }
+
 .cabrarata {
   width: 25%; }
 
 .navbar {
-  background-color: #26aabb;
+  background-color: #069db1;
   flex-wrap: nowrap; }
 
 .offcanvas-body {
-  background-color: #26aabb; }
+  background-color: #069db1; }
 
 .index-p {
   margin: 15px;
@@ -50,29 +55,51 @@ h3 {
   font-family: 'Play', cursive; }
 
 .accordion-body {
-  background-color: #D2D79F; }
+  background-color: #d2d79f6c; }
 
-.index-p {
-  margin: 15px;
-  color: #FFF5E4;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: 'Roboto', cursive; }
+.neOn {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff; }
 
 .aCoor {
   padding: 20px;
-  margin: 15px; }
+  margin: 15px;
+  color: #fff; }
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa; }
+  20%,
+  24%,
+  55% {
+    text-shadow: none; } }
 
 .accordion-button {
   background-color: #e9c5246e; }
+
+.btNn {
+  padding: 2px;
+  margin: 10px;
+  background-color: black;
+  color: #069db1;
+  border: solid white 1px; }
+
+.bienVe {
+  font-size: 2rem;
+  font-weight: bold; }
 
 .bio-p {
   display: flex;
   margin: 15px 10px 5px 5px;
   justify-content: center;
   align-items: center;
-  color: #26aabb;
+  color: #069db1;
   text-align: center;
   font-size: 1.5rem;
   font-weight: normal;
@@ -83,6 +110,13 @@ h3 {
   margin: 3rem;
   padding: 3rem; }
 
+.card-text {
+  color: #FFF5E4;
+  font-size: 1rem; }
+
+.card-title {
+  color: #069db1; }
+
 .titulo-bio {
   margin: 15px 10px 5px 5px;
   color: #0c8869;
@@ -90,6 +124,25 @@ h3 {
   font-size: 2.5rem;
   font-weight: normal;
   font-family: 'Play', sans-serif; }
+
+.disCo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 5% 25%; }
+
+.coLorh {
+  color: #0c8869;
+  font-size: 2.5rem; }
+
+.tAm {
+  height: 800px; }
+
+.colorLink {
+  color: #FFF5E4;
+  font-weight: bold; }
+  .colorLink:hover {
+    color: #0c8869; }
 
 .videoHer {
   width: 100%; }
@@ -101,12 +154,15 @@ h3 {
 .colL {
   text-decoration: underline;
   color: black; }
+  .colL:hover {
+    color: #069db1; }
 
 .gIra {
   display: grid;
   place-items: center; }
   .gIra_peP {
-    color: #FFF5E4; }
+    color: #FFF5E4;
+    padding: 15px; }
   .gIra_tiTle {
     color: #0c8869;
     margin: 10px; }
@@ -114,10 +170,11 @@ h3 {
     display: flex;
     justify-content: center;
     padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    flex-direction: row; }
     .gIra_liste_item {
       color: #FFF5E4;
-      border: solid #26aabb 2px;
+      border: solid #069db1 2px;
       margin: 0.5rem;
       font-family: 'Roboto';
       font-size: 1.5rem; }
@@ -137,7 +194,7 @@ h3 {
     font-size: 2rem;
     text-align: right;
     padding: 5px 10px;
-    color: #26aabb; }
+    color: #069db1; }
     .pie .fab:hover {
       transform: scale(1.5);
       transition: all 1.5s ease; }
@@ -146,7 +203,7 @@ h3 {
   .pie {
     font-size: 1rem;
     margin: auto;
-    color: #26aabb;
+    color: #069db1;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-around;
@@ -176,7 +233,7 @@ h3 {
   .bio-p {
     justify-content: center;
     align-items: center;
-    color: #26aabb;
+    color: #069db1;
     text-align: center;
     font-size: 1rem;
     padding: 15px 25px;
@@ -188,4 +245,44 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
-    font-family: 'Play', sans-serif; } }
+    font-family: 'Play', sans-serif; }
+  .meDia {
+    width: 275px; }
+  .tAm {
+    height: 335px; }
+  .aCoor {
+    padding: 10px;
+    margin: 7.5px; }
+  .taRjeta {
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem; }
+  .disCo {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    width: 90vw; }
+  .gIra {
+    display: grid;
+    place-items: center; }
+    .gIra_peP {
+      color: #FFF5E4;
+      padding: 15px; }
+    .gIra_tiTle {
+      color: #0c8869;
+      margin: 10px; }
+    .gIra_liste {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      margin: 10px;
+      flex-direction: column; }
+      .gIra_liste_item {
+        color: #FFF5E4;
+        border: solid #069db1 2px;
+        margin: 0.5rem;
+        font-family: 'Roboto';
+        font-size: 1.5rem; }
+        .gIra_liste_item:hover {
+          background-color: aquamarine;
+          color: blue; } }

@@ -1,0 +1,26 @@
+.disCo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 25%;
+}
+
+.coLorh {
+    color: $verde;
+    font-size: 2.5rem;
+
+}
+
+.tAm {
+    height: 800px;
+}
+
+.colorLink {
+    color: $crema;
+    font-weight: bold;
+
+    &:hover {
+
+        color: $verde;
+    }
+}
