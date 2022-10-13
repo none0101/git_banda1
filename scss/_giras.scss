@@ -1,13 +1,17 @@
 .gIra {
         display: grid;
-       place-items: center;
-       &_peP{
-        color: $crema;
-        padding: 15px;
-       }
-       &_tiTle{
-        color: $verde;
-        margin: 10px;
+        place-items: center;
+        &_peP{
+            color: $crema;
+            padding: 15px;
+            font-family: 'play';
+            font-size: 1rem;
+        }
+        &_tiTle{
+            color: $verde;
+            margin: 10px;
+            font-family: 'Roboto';
+            font-weight: bold;
        }
        &_liste{
         display: flex;
@@ -19,7 +23,7 @@
             color: $crema;
             border:solid $celeste 2px;
             margin: 0.5rem;
-            font-family:'Roboto';
+            font-family:'Play';
             font-size: 1.5rem;
             &:hover{
                 background-color: aquamarine;
@@ -30,3 +34,8 @@
 
        
 }
+.accordion-body{
+    text-decoration: none;
+    font-family: 'play';
+}
+

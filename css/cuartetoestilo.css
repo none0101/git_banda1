@@ -162,10 +162,14 @@ h3 {
   place-items: center; }
   .gIra_peP {
     color: #FFF5E4;
-    padding: 15px; }
+    padding: 15px;
+    font-family: 'play';
+    font-size: 1rem; }
   .gIra_tiTle {
     color: #0c8869;
-    margin: 10px; }
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: bold; }
   .gIra_liste {
     display: flex;
     justify-content: center;
@@ -176,11 +180,15 @@ h3 {
       color: #FFF5E4;
       border: solid #069db1 2px;
       margin: 0.5rem;
-      font-family: 'Roboto';
+      font-family: 'Play';
       font-size: 1.5rem; }
       .gIra_liste_item:hover {
         background-color: aquamarine;
         color: blue; }
+
+.accordion-body {
+  text-decoration: none;
+  font-family: 'play'; }
 
 .pie {
   display: flex;
@@ -211,7 +219,7 @@ h3 {
     font-family: 'Roboto', sans-serif; }
   .index-p {
     margin: 15px;
-    color: #FFF5E4;
+    color: #0c8869;
     text-align: center;
     font-size: 1rem;
     font-family: 'Roboto', cursive; }
